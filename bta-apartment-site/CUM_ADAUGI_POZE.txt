@@ -1,0 +1,31 @@
+CUM ADAUGI POZE PE SITE
+
+1. Deschide folderul site-ului.
+2. Pentru Park Lake, pune pozele in:
+   assets/park-lake/
+3. Pentru Manastur, pune pozele in:
+   assets/manastur/
+4. Redenumeste pozele simplu:
+   01.jpg, 02.jpg, 03.jpg etc.
+5. Deschide index.html cu Notepad / Visual Studio Code.
+6. Cauta sectiunea:
+   <div class="gallery">
+7. Adauga o poza noua asa:
+   <img src="assets/park-lake/10.jpg" alt="BTA Apartment Park Lake" />
+   sau:
+   <img src="assets/manastur/16.jpg" alt="BTA Apartment Manastur" />
+
+Galeria se deschide automat fullscreen cand dai click pe orice poza.
+Are sageti stanga/dreapta, counter si merge si cu tastatura.
+
+HARTI
+- Hartile sunt integrate direct in index.html prin Google Maps embed.
+- Pentru modificare, cauta "Harta interactiva" in index.html.
+
+RECENZII
+- Am pus sectiuni de recenzii tip rezumat si butoane catre Booking.com.
+- Cand ai texte exacte sau scorurile actuale, inlocuim usor cardurile din sectiunea "Recenzii Booking.com".
+
+
+LOGO:
+Logo-ul este in assets/bta-logo.png. Pentru schimbare, inlocuieste acest fisier cu un alt PNG cu acelasi nume.
