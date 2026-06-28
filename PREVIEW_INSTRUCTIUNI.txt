@@ -1,0 +1,22 @@
+BTA Apartments v2.0 - Preview
+
+1. Dezarhiveaza folderul.
+2. Deschide index.html in browser pentru preview local.
+3. Daca iti place, incarca pe GitHub urmatoarele:
+   - index.html
+   - style.css
+   - script.js
+   - robots.txt
+   - sitemap.xml
+   - folderul assets/icons
+   - assets/favicon.svg
+4. Pastreaza folderele assets/park-lake si assets/manastur exact cum sunt.
+
+Ce include versiunea:
+- pictograme dedicate pentru Google Maps, Waze, WhatsApp, Booking si telefon;
+- carduri de navigatie rapida sub hartile ambelor apartamente;
+- butoane Booking/WhatsApp imbunatatite;
+- favicon;
+- meta tag-uri SEO si Open Graph;
+- Schema.org pentru cazare;
+- galerie fullscreen existenta pastrata.

@@ -27,3 +27,39 @@
 .brand img{height:48px;width:auto;border-radius:8px;background:white;padding:2px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
 .directDeal strong{color:#1f7a3a}
 @media(max-width:900px){.brand img{height:38px}.brand span{font-size:12px}}
+
+
+/* Navigation buttons under maps */
+.navigationCard{
+  margin-top:22px;
+  background:linear-gradient(135deg,#ffffff,#fffaf2);
+  border:1px solid var(--line);
+  border-radius:28px;
+  padding:26px;
+  box-shadow:0 18px 50px rgba(70,52,31,.08);
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:24px;
+  align-items:center;
+}
+.navigationCard h3{font-size:28px;margin:8px 0 8px}.navigationCard p{color:var(--muted);margin:0}.navigationButtons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.navBtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:64px;padding:14px 16px;border-radius:18px;text-decoration:none;color:#1d1a16;font-weight:800;border:1px solid rgba(0,0,0,.08);box-shadow:0 10px 24px rgba(0,0,0,.06);transition:.22s}.navBtn:hover{transform:translateY(-3px);box-shadow:0 16px 32px rgba(0,0,0,.12)}.navIcon{width:34px;height:34px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.8);font-size:18px}.navBtn.google{background:linear-gradient(135deg,#fff,#eef6ff)}.navBtn.waze{background:linear-gradient(135deg,#e9f8ff,#ffffff)}.navBtn.phone{background:linear-gradient(135deg,#fff7e7,#ffffff)}.navBtn.whatsapp{background:linear-gradient(135deg,#e9faef,#ffffff)}@media(max-width:900px){.navigationCard{grid-template-columns:1fr}.navigationButtons{grid-template-columns:1fr}.navBtn{justify-content:flex-start}}
+
+/* ===== BTA v2.0 visual upgrade ===== */
+.btn.appBtn{gap:10px;border:0;box-shadow:0 12px 28px rgba(0,0,0,.10)}
+.btn.appBtn img{width:24px;height:24px;display:block;flex:0 0 24px}
+.bookingBtn{background:#003b95!important;color:white!important}
+.whatsappBtn{background:#25D366!important;color:white!important;border-color:#25D366!important}
+.navigationCard{position:relative;overflow:hidden}
+.navigationCard:before{content:"";position:absolute;inset:-80px auto auto -80px;width:180px;height:180px;background:radial-gradient(circle,rgba(154,107,63,.16),transparent 68%);pointer-events:none}
+.navigationButtons .navBtn{position:relative;overflow:hidden;background:white}
+.navigationButtons .navBtn img{width:34px;height:34px;display:block;flex:0 0 34px;border-radius:10px;box-shadow:0 6px 14px rgba(0,0,0,.08)}
+.navigationButtons .navBtn.google{background:linear-gradient(135deg,#fff,#f0f7ff)}
+.navigationButtons .navBtn.waze{background:linear-gradient(135deg,#e8f8ff,#fff)}
+.navigationButtons .navBtn.phone{background:linear-gradient(135deg,#fff5e7,#fff)}
+.navigationButtons .navBtn.whatsapp{background:linear-gradient(135deg,#e7faef,#fff)}
+.whatsappFloat{display:inline-flex;align-items:center;gap:9px}
+.whatsappFloat img{width:24px;height:24px;background:white;border-radius:999px}
+.card{transition:.25s ease}.card:hover{transform:translateY(-4px);box-shadow:0 24px 65px rgba(70,52,31,.13)}
+.gallery img{box-shadow:0 8px 22px rgba(0,0,0,.08)}
+.propertyHead:after{content:"";display:block;width:70px;height:3px;background:var(--accent);margin:22px auto 0;border-radius:999px}
+@media(max-width:700px){.btn.appBtn{width:100%;justify-content:center}.navigationButtons .navBtn img{width:30px;height:30px}.whatsappFloat span{display:none}}
